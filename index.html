@@ -22,10 +22,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link active font-weight-bold" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link active font-weight-bold" href="#index">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Diary</a>
+          <a class="nav-link" href="#diary">Diary</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -33,10 +33,10 @@
             My Days
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">그림</a>
-            <a class="dropdown-item" href="#">사진</a>
+            <a class="dropdown-item" href="#draws">그림</a>
+            <a class="dropdown-item" href="#photos">사진</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">전체 글 보기</a>
+            <a class="dropdown-item" href="#diaries">전체 글 보기</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -45,10 +45,10 @@
             Share
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">그림</a>
-            <a class="dropdown-item" href="#">사진</a>
+            <a class="dropdown-item" href="#share_draws">그림</a>
+            <a class="dropdown-item" href="#share_photos">사진</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">글</a>
+            <a class="dropdown-item" href="#share_diaries">글</a>
           </div>
         </li>
       </ul>
@@ -61,56 +61,57 @@
 
 
 
-  <div class="jumbotron text-center bg-light mb-0">
-    <h1 class="display-4 font-weight-bold text-uppercase">My Visual Diary</h1>
-    <p></p>
-    <p class="lead">일기를 작성하고, 인공지능으로 생성한 나만의 그림을 모아보세요!</p>
-    <hr class="my-4">
-    <p>오늘 하루 기록하기</p>
-    <a class="btn btn-success btn-md" href="#" role="button"> + Write + </a>
-  </div>
-
-  <div class="container-fluid py-5 text-center text-light bg-dark">
-    <div class="bd-example">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <!-- <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol> -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <!-- <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiuwvlUVzt15I-tqtjbqmVIBjgj_fnoYxk7i1ieX6X7_z6sroV1A"
-              class="d-block w-100 mx-auto" alt="..."> -->
-              <h2>Auto Image Generation</h2>
-              <p>인공지능 기술로 일기 내용을 감성 분석하고 키워드를 추출하여 자동으로 그림을 생성합니다.</p>
-            <!-- <div class="carousel-caption d-none d-md-block bg-dark">
-              <h5>Auto Image Generation</h5>
-              <p>인공지능 기술로 일기 내용을 감성 분석하고 키워드를 추출하여 자동으로 그림을 생성합니다.</p>
-            </div> -->
-          </div>
-          <div class="carousel-item">
-              <h2>Search Everything</h2>
-              <p>일기, 사진, 자동 생성 그림을 #태그를 사용하여 검색하세요.</p>
-          </div>
-          <div class="carousel-item">
-              <h2>Private & Public</h2>
-              <p>사람들과 공유하고 싶은 내용은 Public 모드로 전환하세요.</p>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+  <div class="container">
+    <div class="jumbotron text-center bg-light mb-0">
+      <h1 class="display-4 font-weight-bold text-uppercase">My Visual Diary</h1>
+      <p></p>
+      <p class="lead mb-0">일기를 작성하고, 인공지능으로 생성한 나만의 그림을 모아보세요!</p>
     </div>
   </div>
 
+  <div class="container-fluid py-5 text-center text-light bg-dark">
+      <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <!-- <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!-- <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiuwvlUVzt15I-tqtjbqmVIBjgj_fnoYxk7i1ieX6X7_z6sroV1A"
+                class="d-block w-100 mx-auto" alt="..."> -->
+              <h2>Auto Image Generation</h2>
+              <p class="font-size-xl">인공지능 기술로 일기 내용을 감성 분석하고 키워드를 추출하여 자동으로 그림을 생성합니다.</p>
+              <!-- <div class="carousel-caption d-none d-md-block bg-dark">
+                <h5>Auto Image Generation</h5>
+                <p>인공지능 기술로 일기 내용을 감성 분석하고 키워드를 추출하여 자동으로 그림을 생성합니다.</p>
+              </div> -->
+            </div>
+            <div class="carousel-item">
+              <h2>Search Everything</h2>
+              <p>일기, 사진, 자동 생성 그림을 #태그를 사용하여 검색하세요.</p>
+            </div>
+            <div class="carousel-item">
+              <h2>Private & Public</h2>
+              <p>사람들과 공유하고 싶은 내용은 Public 모드로 전환하세요.</p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+  
+  <img src="images/sample.png" alt="sample image" class="mx-auto d-block col-xl-6 col-12">
 
 
 
