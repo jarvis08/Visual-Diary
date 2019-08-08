@@ -1,8 +1,15 @@
 # Visual Diary
+
+---
+
 This Web application is my personal project.
 
+Goal is to use most of knowledge that I learn nowadays.
 
-## Used Language
+---
+
+
+## Programming Language
 - HTML
 - CSS
 - Python
