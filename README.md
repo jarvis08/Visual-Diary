@@ -1,23 +1,29 @@
 # Visual Diary
-
----
-
 This Web application is my personal project.
 
 Goal is to use most of knowledge that I learn nowadays.
 
----
+<br>
 
+<br>
 
 ## Programming Language
 - HTML
 - CSS
 - Python
 
+<br>
+
+<br>
+
 ## Frameworks
 - Django
 - Bootstrap
 - Tensorflow
+
+<br>
+
+<br>
 
 ## Functional Requirements
 - Calender
